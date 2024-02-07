@@ -2,60 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>What the Font!</title>
     <meta name="description" content="Seven Nation Army Lyric page with audio">
     
+    <!-- External CSS stylesheet from Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap">
+    <!-- External CSS stylesheet -->
     <link rel="stylesheet" href="./css/main.css">
-    <script  src="./js/main.js" defer></script>
+    <!-- External JavaScript file with deferred loading -->
+    <script src="./js/main.js" defer></script>
 </head>
 
 <body>
 
-       <section class="jumbotron">
-                <img class="mainImage" src="./images/albumCover.jpg" alt="White Stripe Album Cover">
-                <h1 class="songTitle">Seven Nation Army</h1>
-                <audio class="mainImage" id="myAudio" controls>
-                    <source src="./audio/TheWhiteStripes-'SevenNationArmy_(Lyrics).mp3" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                  </audio>
-                <p id ="timeStamp" class="activeFrame">Current time: <span id="currentTime">0:00</span></p> 
-                <h2 id="verse">[Verse 1]</h2>
-                <div class="activeFrame">
-                    
-                </div>
-                <div class="activeFrame">
-                    <div id="currentLyrics"></div>
-                    
-                    <button id ="myPlayButton" class="myPlayButton">Play Song</button>
-                    <button id ="myStopButton" class="myPlayButton">Stop Song</button>
-                </div>
-                <div class="activeFrame">
-               
-                </div>
+    <!-- Jumbotron section -->
+    <section class="jumbotron">
+        <!-- Main image -->
+        <img class="mainImage" src="./images/albumCover.jpg" alt="White Stripe Album Cover">
+        <!-- Song title -->
+        <h1 class="songTitle">Seven Nation Army</h1>
+        <!-- Audio player -->
+        <audio class="mainImage" id="myAudio" controls>
+            <source src="./audio/TheWhiteStripes-'SevenNationArmy_(Lyrics).mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <!-- Current time display -->
+        <p id="timeStamp" class="activeFrame">Current time: <span id="currentTime">0:00</span></p> 
+        <!-- Verse heading -->
+        <h2 id="verse">[Verse 1]</h2>
+        <!-- Active frame containers -->
+        <div class="activeFrame"></div>
+        <div class="activeFrame">
+            <!-- Current lyrics display -->
+            <div id="currentLyrics"></div>
+            <!-- Play and stop buttons -->
+            <button id="myPlayButton" class="myPlayButton">Play Song</button>
+            <button id="myStopButton" class="myPlayButton">Stop Song</button>
+        </div>
+        <div class="activeFrame"></div>
+    </section> 
     
-        </section> 
-        
-        <section id="lyricsContainer" class="container fullLyrics">
+    <!-- Lyrics container section -->
+    <section id="lyricsContainer" class="container fullLyrics">
+        <!-- Lyrics content will be dynamically generated here -->
+    </section>
 
-
-
-
-
-
-
-
-
-
-
-        </section>
-
-<div class="col-sm-12 col-md-12 grayBackground">
-
-</div>
-
-
+    <!-- Gray background section -->
+    <div class="col-sm-12 col-md-12 grayBackground"></div>
 
 </body>
 </html>

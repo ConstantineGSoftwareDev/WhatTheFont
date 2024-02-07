@@ -1,3 +1,4 @@
+/* Define custom fonts */
 @font-face {
     font-family: 'ProtestGuerrilla'; /* Name to reference the font */
     src: url('../fonts/Protest_Guerrilla/ProtestGuerrilla-Regular.ttf') format('truetype'); /* Path to the .ttf file */
@@ -7,129 +8,130 @@
     font-family: 'ProtestRevolution'; /* Name to reference the font */
     src: url('../fonts/Protest_Revolution/ProtestRevolution-Regular.ttf') format('truetype'); /* Path to the .ttf file */
 }
-body
-{
-    background-color: black;
+
+/* Body styles */
+body {
+    background-color: black; /* Set background color to black */
 }
-h2
-{
-    text-align: center;
+
+/* Heading 2 styles */
+h2 {
+    text-align: center; /* Center-align heading 2 */
 }
-.jumbotron{
-    padding-bottom: 10%;
+
+/* Styles for the jumbotron */
+.jumbotron {
+    padding-bottom: 10%; /* Add padding to the bottom of the jumbotron */
 }
+
+/* Styles for h1 inside jumbotron */
 .jumbotron > h1 {
-
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
     font-weight: 900; /* Roboto Black */
-    text-align: center;
-}
-.activeFrame{
-    width: 100%;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
-.sidePanel{
-    width: 50%;
+    text-align: center; /* Center-align text */
 }
 
-.currentLyrics
-{
-    text-align: center;
-}
-.myPlayButton
-{
-    margin-top: 2%;
-    width: 50%;
-}
-.myPlayButton{
-    background-color: crimson ;
-    font-family: 'Roboto', sans-serif;
-    color: ghostwhite;
-}
-.myPlayButton:hover{
-    background-color: black ;
-    font-family: 'Roboto', sans-serif;
-    color: crimson;
-}
-.myPlayButton:active{
-    background-color: black ;
-    font-family: 'Roboto', sans-serif;
-    color: crimson;
+/* Styles for activeFrame */
+.activeFrame {
+    width: 100%; /* Set width to 100% */
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+    text-align: center; /* Center-align text */
 }
 
-.mainImage{
-    justify-content: center;
-    text-align: center;
-    margin: auto;
-    display: block;
-    border-radius: 5px;
-}
-.btn-primary:active:hover
-{
-    background-color: darkred ;
-    font-family: 'Roboto', sans-serif;
-    color: whitesmoke ; 
-}
-.fullLyrics{
-    color: crimson;
+/* Styles for sidePanel */
+.sidePanel {
+    width: 50%; /* Set width to 50% */
 }
 
-#verse{
-    color: crimson;
-    font-family: 'ProtestRevolution';
-}
-#currentLyrics
-{
-    color: antiquewhite;
-    padding-bottom: 3%;
+/* Styles for currentLyrics */
+.currentLyrics {
+    text-align: center; /* Center-align text */
 }
 
-.grayBackground{
-    margin-top: 10px;
-    padding-top: 5px;
-    background-color: gray  ;
-}
-span
-{
-    justify-content: center;
-    text-align: center;
-    margin: auto;
-    display: block;
-}
-#timeStamp{
-    color: antiquewhite;
+/* Styles for myPlayButton */
+.myPlayButton {
+    margin-top: 2%; /* Add margin to the top */
+    width: 50%; /* Set width to 50% */
+    background-color: crimson; /* Set background color */
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+    color: ghostwhite; /* Set text color */
 }
 
-#_15, ._15{
-  font-size: 35px;  
+.myPlayButton:hover,
+.myPlayButton:active {
+    background-color: black; /* Change background color on hover and active */
+    color: crimson; /* Change text color on hover and active */
 }
 
-#_130, ._130,#_41
-{
-    font-size: 50px; 
+/* Styles for mainImage */
+.mainImage {
+    justify-content: center; /* Center-align content */
+    text-align: center; /* Center-align text */
+    margin: auto; /* Center horizontally */
+    display: block; /* Display as block element */
+    border-radius: 5px; /* Add border radius */
 }
 
-#_18 , ._18
-{
-    font-size: 65px; 
-}
-#_15, #_46, #_49, #_96, #_117, #_119, #_203, #_206 
-{
-    font-size: 35px;  
-}
-._15,
-._46,
-._49,
-._117,
-._119,
-._203,
-._206 
-{
-    font-size: 35px;
+/* Styles for btn-primary */
+.btn-primary:active:hover {
+    background-color: darkred; /* Change background color on hover and active */
+    color: whitesmoke; /* Set text color */
 }
 
+/* Styles for fullLyrics */
+.fullLyrics {
+    color: crimson; /* Set text color */
+}
 
-#_96 , ._96{
-    font-size: 50px; 
+/* ID styles */
+#verse {
+    color: crimson; /* Set text color */
+    font-family: 'ProtestRevolution'; /* Use ProtestRevolution font */
+}
+
+#currentLyrics {
+    color: antiquewhite; /* Set text color */
+    padding-bottom: 3%; /* Add padding to the bottom */
+}
+
+/* Styles for grayBackground */
+.grayBackground {
+    margin-top: 10px; /* Add margin to the top */
+    padding-top: 5px; /* Add padding to the top */
+    background-color: gray; /* Set background color to gray */
+}
+
+/* Styles for span */
+span {
+    justify-content: center; /* Center-align content */
+    text-align: center; /* Center-align text */
+    margin: auto; /* Center horizontally */
+    display: block; /* Display as block element */
+}
+
+/* Styles for timeStamp */
+#timeStamp {
+    color: antiquewhite; /* Set text color */
+}
+
+/* Styles for specific elements */
+#_15, ._15 {
+    font-size: 35px; /* Set font size */
+}
+
+#_130, ._130, #_41, ._41 {
+    font-size: 50px; /* Set font size */
+}
+
+#_18, ._18 {
+    font-size: 65px; /* Set font size */
+}
+
+/* Specific styles for certain elements */
+#_15, #_46, #_49, #_96, #_117, #_119, #_203, #_206, ._15, ._46, ._49, ._117, ._119, ._203, ._206 {
+    font-size: 35px; /* Set font size */
+}
+
+#_96, ._96 {
+    font-size: 50px; /* Set font size */
 }

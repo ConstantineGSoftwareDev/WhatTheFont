@@ -1,3 +1,5 @@
+
+//song timestaps in seconds with lyrics and fonts
 const lyrics = {
     15: { lyric: "I'm gonna fight 'em off", font: "ProtestGuerrilla" },
     18: { lyric: "A seven nation army couldn't hold me back", font: "ProtestRevolution" },
@@ -39,6 +41,7 @@ const lyrics = {
     206: { lyric: "Tell me Go back home", font: "ProtestRevolution" },
 };
 
+//variables for the parts of the screen
 var audio = document.getElementById("myAudio");
 var currentTimeDisplay = document.getElementById("currentTime");
 
@@ -50,6 +53,7 @@ console.log(keys);
 
 var previousLyric= "";
 var previousKey = null;
+//this function writes all the lyrics with their font styles
 function writeLyrics()
 {
             // Iterate through the keys of the lyrics object
@@ -67,10 +71,11 @@ function writeLyrics()
                 container.appendChild(document.createElement("br"));
             });
 }
+//function for the play button
 function playAudio() {
   audio.play();
 }
-
+//function for the stop button
 function pauseAudio() {
   audio.pause();
 }
@@ -96,7 +101,7 @@ document.getElementById("myPlayButton").addEventListener('click', function() {
   });
 
 
-
+  //an event handler with an anon function
   audio.addEventListener("timeupdate", function() {
     var currentMinutes = Math.floor(audio.currentTime / 60);
     var currentSeconds = Math.floor(audio.currentTime % 60);
