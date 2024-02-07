@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'ProtestGuerrilla'; /* Name to reference the font */
+    src: url('../fonts/Protest_Guerrilla/ProtestGuerrilla-Regular.ttf') format('truetype'); /* Path to the .ttf file */
+}
+
+@font-face {
+    font-family: 'ProtestRevolution'; /* Name to reference the font */
+    src: url('../fonts/Protest_Revolution/ProtestRevolution-Regular.ttf') format('truetype'); /* Path to the .ttf file */
+}
+body
+{
+    background-color: black;
+}
+h2
+{
+    text-align: center;
+}
+.jumbotron{
+    padding-bottom: 10%;
+}
+.jumbotron > h1 {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900; /* Roboto Black */
+    text-align: center;
+}
+.activeFrame{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.sidePanel{
+    width: 50%;
+}
+
+.currentLyrics
+{
+    text-align: center;
+}
+.myPlayButton
+{
+    margin-top: 2%;
+    width: 50%;
+}
+.myPlayButton{
+    background-color: crimson ;
+    font-family: 'Roboto', sans-serif;
+    color: ghostwhite;
+}
+.myPlayButton:hover{
+    background-color: black ;
+    font-family: 'Roboto', sans-serif;
+    color: crimson;
+}
+.myPlayButton:active{
+    background-color: black ;
+    font-family: 'Roboto', sans-serif;
+    color: crimson;
+}
+
+.mainImage{
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+}
+.btn-primary:active:hover
+{
+    background-color: darkred ;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke ; 
+}
+.fullLyrics{
+    color: crimson;
+}
+
+#verse{
+    color: crimson;
+    font-family: 'ProtestRevolution';
+}
+#currentLyrics
+{
+    color: antiquewhite;
+}
+
+.grayBackground{
+    margin-top: 10px;
+    padding-top: 5px;
+    background-color: gray  ;
+}
+span
+{
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+#timeStamp{
+    color: antiquewhite;
+}
+
+#_15, ._15{
+  font-size: 35px;  
+}
+
+#_130, ._130,#_41
+{
+    font-size: 50px; 
+}
+
+#_15, #_46, #_49, #_96, #_117, #_119, #_203, #_206 
+{
+    font-size: 35px;  
+}
+._15,
+._46,
+._49,
+._117,
+._119,
+._203,
+._206 
+{
+    font-size: 35px;
+}
+
+
+#_96 , ._96{
+    font-size: 50px; 
+}
