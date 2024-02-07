@@ -82,6 +82,7 @@ h2
 #currentLyrics
 {
     color: antiquewhite;
+    padding-bottom: 3%;
 }
 
 .grayBackground{
@@ -109,6 +110,10 @@ span
     font-size: 50px; 
 }
 
+#_18 , ._18
+{
+    font-size: 65px; 
+}
 #_15, #_46, #_49, #_96, #_117, #_119, #_203, #_206 
 {
     font-size: 35px;  

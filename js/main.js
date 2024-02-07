@@ -1,6 +1,6 @@
 const lyrics = {
     15: { lyric: "I'm gonna fight 'em off", font: "ProtestGuerrilla" },
-    18: { lyric: "A seven nation army couldn't hold me back", font: "Roboto" },
+    18: { lyric: "A seven nation army couldn't hold me back", font: "ProtestRevolution" },
     22: { lyric: "They're gonna rip it off", font: "ProtestGuerrilla" },
     25: { lyric: "Taking their time right behind my back", font: "Roboto" },
     30: { lyric: "And I'm talking to myself at night", font: "Roboto" },
