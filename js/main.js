@@ -23,7 +23,7 @@ const lyrics = {
     108: { lyric: "And that ain't what you want to hear", font: "Roboto" },
     112: { lyric: "But that's what I'll do", font: "Roboto" },
     116: { lyric: "[Pre-Chorus 1]", font: "Roboto" },
-    117: { lyric: "And the message coming from my bones", font: "ProtestRevolution" },
+    117: { lyric: "And the feeling coming from my bones", font: "ProtestRevolution" },
     119: { lyric: "Says Find a home", font: "ProtestRevolution" },
     121: { lyric: "[Instrumental Chorus]", font: "ProtestGuerrilla" },
     130: { lyric: "[Guitar Solo]", font: "ProtestGuerrilla" },
